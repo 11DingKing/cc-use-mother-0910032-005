@@ -1,0 +1,6 @@
+[project]
+name = "domain-contract-0910032-005"
+version = "0.1.0"
+description = "车型基线规则库的领域约定与校验工具"
+requires-python = ">=3.11"
+dependencies = []
