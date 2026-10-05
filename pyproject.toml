@@ -1,6 +1,12 @@
 [project]
 name = "domain-contract-0910032-005"
 version = "0.1.0"
-description = "车型基线规则库的领域约定与校验工具"
+description = "车型基线规则库的领域约定、校验工具与后端服务"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+baseline-rules-api = "baseline_rules.api:serve"
+
+[tool.setuptools.packages.find]
+where = ["src"]
